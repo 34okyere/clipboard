@@ -6,10 +6,11 @@
 
 header{
 	background-image: url(images/bg-header-desktop.png);
+	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 }
 
@@ -90,9 +91,14 @@ footer{
 	color: white;
 }
 
-.ques{
+.footer{
 	display: flex;
-	justify-content: space-around;
-	color: white;
-	margin-top: 3rem;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 7rem;
 }
+
+
+
+
